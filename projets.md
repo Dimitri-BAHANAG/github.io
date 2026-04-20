@@ -17,7 +17,7 @@ et se connecte au Raspberry Pi via le réseau (port 8888 pour pigpiod).
 Ce choix évite les problèmes de pare-feu scolaire et facilite le débogage.
 ![Robot ESIEAbot avec LED allumée](assets/images/IMG-20260420-WA0029.jpg)
 *Le robot ESIEAbot avec l'afficheur OLED et les LEDs actives*
-![Commande du robot à partir de Claude Desktop](assets/images/ORDRES 1_CLAUDE_MCP_ESIEABOT.png)
+![Commande du robot à partir de Claude Desktop](assets/images/CONNEXION_CLAUDE_OK.png)
 *Commande de l'ESIEABOT à partir de Claude Desktop*
 ![Mouvement du servo moteur grace à un signal PWM](assets/images/MCP_ANGLE OK!.png)
 *Mouvement du servo moteur grace à un signal PWM*
