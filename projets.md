@@ -17,9 +17,9 @@ et se connecte au Raspberry Pi via le réseau (port 8888 pour pigpiod).
 Ce choix évite les problèmes de pare-feu scolaire et facilite le débogage.
 ![Robot ESIEAbot avec LED allumée](assets/images/IMG-20260420-WA0029.jpg)
 *Le robot ESIEAbot avec l'afficheur OLED et les LEDs actives*
-![Commande du robot à partir de Claude Desktop](assets/images/ORDRES_1_CLAUDE_MCP_ESIEABOT.PNG)
+![Commande du robot à partir de Claude Desktop](assets/images/ORDRES_1_CLAUDE_MCP_ESIEABOT.png)
 *Commande de l'ESIEABOT à partir de Claude Desktop*
-![Mouvement du servo moteur grace à un signal PWM](assets/images/MCP_ANGLE OK!.jpg)
+![Mouvement du servo moteur grace à un signal PWM](assets/images/MCP_ANGLE OK!.png)
 *Mouvement du servo moteur grace à un signal PWM*
 ---
 ## Résultats obtenus- Serveur MCP opérationnel en mode simulation (stub pigpio)- Claude Desktop détecte et liste tous les outils esieabot- Commandes de déplacement et angle servo fonctionnent en simulation- Problème identifié : pigpiod n'écoute pas sur *:8888 (solution documentée)
