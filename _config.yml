@@ -10,7 +10,10 @@ theme: minima
  
 # Pages visibles dans la navigation
 Guide Portfolio Ingénieur  --  Dimitri Bahanag Page 8 / 22
-header_pages:- index.md- projets.md- contact.md
+header_pages:
+- index.md
+- projets.md
+- contact.md
 # Options techniques (ne pas modifier)
 markdown: kramdown
 highlighter: rouge
