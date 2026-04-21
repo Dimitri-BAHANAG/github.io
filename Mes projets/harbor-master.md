@@ -54,3 +54,7 @@ Le dépôt est organisé selon les standards professionnels :
 │ └── final/ # Rapport de stratégie et résultats de benchmark
 ├── pom.xml # Gestionnaire de dépendances Maven
 └── README.md
+
+## Rapport et code source
+ - [Télécharger le rapport TD3 (PDF)](/assets/images/Rapport%20de%20Projet%20CHALLENGES%20TECHNIQUES.docx)
+ - [Dépôt GitLab](https://gitlab.esiea.fr/dimitri.bahanag/gestionnaire_traffic_portuaire.git)
