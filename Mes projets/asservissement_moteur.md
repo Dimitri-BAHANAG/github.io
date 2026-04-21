@@ -28,6 +28,10 @@ Le système est modélisé par une fonction de transfert du second ordre intégr
 ### 2. Correction Proportionnelle
 * Mise en place d'une boucle à retour unitaire ($A_b = 1$).
 * Analyse de l'influence du gain $A_d$ sur la stabilité, la rapidité (temps de montée $t_m$) et la précision.
+* ![*Analyse gain*](assets/images/a-bode-ad-4.PNG)
+* *Figure 3: Diagramme de bode pour ad=4*
+* ![*Analyse gain*](assets/images/a-valeurs-ad.PNG)
+* *Figure 4: Influence du gain sur la réponse*
 
 ### 3. Correction par Avance de Phase
 * Conception d'un correcteur de type $C(p) = K_c \frac{1 + \alpha Tp}{1 + Tp}$ avec $\alpha > 1$.
@@ -35,6 +39,10 @@ Le système est modélisé par une fonction de transfert du second ordre intégr
 
 ### 4. Simulation & C.A.O. (MATLAB/Simulink)
 * Utilisation de **MATLAB** pour le tracé des diagrammes de **Bode** et l'analyse des marges de gain et de phase.
+* * ![*Analyse correcteur*](assets/images/a-bode-correcteur.PNG)
+* *Figure 5: Bode avec correcteur*
+* * ![*Analyse correcteur*](assets/images/comparaison-sortie-correcteur.PNG)
+* *Figure 6: Comparaison entre correcteur et gain ad=4*
 * Modélisation sous **Simulink** pour valider le comportement dynamique en boucle fermée.
 
 ## Environnement Technologique
