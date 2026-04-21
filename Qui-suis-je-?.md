@@ -29,4 +29,4 @@ et industriels réalisés entre 2022 et 2026.
 - LinkedIn : https://www.linkedin.com/in/dimitri-bahanag
 - GitLab ESIEA : https://gitlab.esiea.fr/dimitri.bahanag
 ---
-[Voir tous mes projets](/Mes projets)
+[Voir tous mes projets](/Mes-projets)
