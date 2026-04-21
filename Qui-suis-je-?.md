@@ -24,6 +24,9 @@ et industriels réalisés entre 2022 et 2026.
 - **Développement et Intégration Continue** : Gitlab, Git, VS Code, IntelliJ, Maven, Linux
 - **Mesures** : oscilloscope, multimètre, débogage de cartes
 ---
-## Contact rapide- Email : bahanagphilippe@gmail.com- LinkedIn : https://www.linkedin.com/in/dimitri-bahanag- GitLab ESIEA : https://gitlab.esiea.fr/dimitri.bahanag
+## Contact rapide
+- Email : bahanagphilippe@gmail.com
+- LinkedIn : https://www.linkedin.com/in/dimitri-bahanag
+- GitLab ESIEA : https://gitlab.esiea.fr/dimitri.bahanag
 ---
 [Voir tous mes projets](/projets)
