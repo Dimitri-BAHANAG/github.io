@@ -36,6 +36,7 @@ Pour répondre aux exigences de performance, le système supporte le changement 
 **Figure3*: Terminal utilisateur*
 
 ![Terminal utilisateur2](/assets/images/a-terminal-strategie.PNG)
+
 **Figure3*: Terminal utilisateur:CHOIX DE LA STRATEGIE*
 
 ## 📋 Règles Métier & Contraintes
@@ -43,6 +44,10 @@ Le moteur de décision doit jongler avec plusieurs contraintes critiques :
 * **Spécialisation des Zones :** Les conteneurs `REFRIGERATED` doivent impérativement rejoindre la zone `COLD`, et les `HAZMAT` la zone dédiée.
 * **Logistique Obligatoire :** Un conteneur ne peut pas être transféré directement d'un bateau à un camion ; il doit transiter par le `YARD` (zone de stockage).
 * **Gestion des Grues :** Chaque grue est limitée à une seule action par tick et possède une typologie spécifique de conteneurs qu'elle peut manipuler.
+
+## Rapport et code source
+ - [Télécharger le rapport TD3 (PDF)](/assets/images/Rapport%20de%20Projet%20CHALLENGES%20TECHNIQUES.docx)
+ - [Dépôt GitLab](https://gitlab.esiea.fr/dimitri.bahanag/gestionnaire_traffic_portuaire.git)
 
 ## 📦 Structure du Projet
 Le dépôt est organisé selon les standards professionnels :
@@ -55,6 +60,4 @@ Le dépôt est organisé selon les standards professionnels :
 ├── pom.xml # Gestionnaire de dépendances Maven
 └── README.md
 
-## Rapport et code source
- - [Télécharger le rapport TD3 (PDF)](/assets/images/Rapport%20de%20Projet%20CHALLENGES%20TECHNIQUES.docx)
- - [Dépôt GitLab](https://gitlab.esiea.fr/dimitri.bahanag/gestionnaire_traffic_portuaire.git)
+
