@@ -25,11 +25,13 @@ Ce choix évite les problèmes de pare-feu scolaire et facilite le débogage.
 Voici quelques images qui illustrent l'accomplissement du projet :
 
 ![Le robot ESIEAbot avec l'afficheur OLED et les LEDs actives](/assets/images/a-esieabot-fonctionnel.jpg)
-*Figure3: Esieabot fonctionnel*
+**Figure3: Esieabot fonctionnel*
+
 ![Commande de l'ESIEABOT à partir de Claude Desktop](/assets/images/CONNEXION_CLAUDE_OK.PNG)
-*Figure4: serveur mcp reconnu par Claude*
+**Figure4: serveur mcp reconnu par Claude*
+
 ![Mouvement du servo moteur grace à un signal PWM](/assets/images/mcp-angle-ok.png)
-*Figure5: Simulateur mcp inspector(sans claude) et déplacement des servomoteurs*
+**Figure5: Simulateur mcp inspector(sans claude) et déplacement des servomoteurs*
 ---
 ## Résultats obtenus
 - Serveur MCP opérationnel en mode simulation (stub pigpio)
