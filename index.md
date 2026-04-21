@@ -19,6 +19,7 @@ et industriels réalisés entre 2022 et 2026.
  - **Java,SQL** : programmation orientée objet, gestion de bases de données(Oracle SQL Developper)
  - **Python** : serveur MCP asynchrone, FastAPI, Pydantic, Raspberry Pi
  - **Simulation** : MATLAB/Simulink, Scilab/Xcos, SolidWorks Flow Simulation
+ - **Automatisme** : TIA Portal, Step 7, WinCC
  - **Maintenance industrielle** : AMDEC, Weibull, Pareto (CIMENCAM, Nestlé)
  ---
 ## Contact rapide
