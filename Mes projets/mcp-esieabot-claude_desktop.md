@@ -14,23 +14,31 @@ via le protocole MCP (Model Context Protocol).
 ## Architecture technique
 
 Voici les deux architectures proposées :
-![Architecture A](/assets/images/architectureA.png)
-![Architecture B](/assets/images/architectureB.png)
+![Architecture A](/assets/images/architectureA.png=1200*900)
+*Figure1: architecture A*
+![Architecture B](/assets/images/architectureB.png=1200*900)
+*Figure2: architecture B*
 J'ai opté pour l'Architecture B : le serveur MCP tourne sur mon PC (localhost:8000)
 et se connecte au Raspberry Pi via le réseau (port 8888 pour pigpiod).
 Ce choix évite les problèmes de pare-feu scolaire et facilite le débogage.
 
 Voici quelques images qui illustrent l'accomplissement du projet :
 
-![Le robot ESIEAbot avec l'afficheur OLED et les LEDs actives](/assets/images/a-esieabot-fonctionnel.jpg)
-![Commande de l'ESIEABOT à partir de Claude Desktop](/assets/images/CONNEXION_CLAUDE_OK.PNG)
-![Mouvement du servo moteur grace à un signal PWM](/assets/images/mcp-angle-ok.png)
+![Le robot ESIEAbot avec l'afficheur OLED et les LEDs actives](/assets/images/a-esieabot-fonctionnel.jpg=1200*900)
+*Figure3: Esieabot fonctionnel*
+![Commande de l'ESIEABOT à partir de Claude Desktop](/assets/images/CONNEXION_CLAUDE_OK.PNG=1200*900)
+*Figure4: serveur mcp reconnu par Claude*
+![Mouvement du servo moteur grace à un signal PWM](/assets/images/mcp-angle-ok.png=1200*900)
+*Figure5: Simulateur mcp inspector(sans claude) et déplacement des servomoteurs*
 ---
 ## Résultats obtenus
 - Serveur MCP opérationnel en mode simulation (stub pigpio)
 - Claude Desktop détecte et liste tous les outils esieabot
 - Commandes de déplacement et angle servo fonctionnent en simulation
 - Problème identifié : pigpiod n'écoute pas sur *:8888 (solution documentée)
+
+![Commande à partir de Claude Desktop](/assets/images/commande-avec-claude.PNG=1200*900)
+*Figure6: Commande du robot à partir de Claude Desktop*
 ---
 ## Technologies utilisées
 | Technologie  | Rôle |
