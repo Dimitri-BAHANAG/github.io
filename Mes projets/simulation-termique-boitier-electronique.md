@@ -20,7 +20,7 @@ Une attention particulière a été portée à la fidélité des conditions aux 
 * **Charge Calorifique :** Dissipation thermique volumique de **5,000 W** appliquée aux sources de chaleur (puces/CPU), modélisant une charge processeur intensive.
 * **Conditions Ambiantes :** Simulation réalisée à **20,05 °C** et **101 325 Pa** (Pression atmosphérique standard).
 ![Paramètres1](/assets/images/parametres-simulation-1.jpg)
-  *Conditions ambiantes*
+  *Figure1: Conditions ambiantes*
 
 
 ---
@@ -37,7 +37,7 @@ L'étude intègre des propriétés physiques avancées pour une modélisation r�
     * Gestion de la **viscosité dynamique** de l'air en fonction de la température.
     * Régime de transfert thermique conjugué (Conduction dans les solides + Convection dans les fluides).
 ![Paramètres2](/assets/images/parametres-simulation-2.jpg)
-*Paramètres d'écoulement*
+*Figure2: Paramètres d'écoulement*
 
 ---
 
@@ -50,10 +50,10 @@ Le modèle a été poussé jusqu'à **4 000 transferts** pour garantir une stabi
 3. **Barrière Adiabatique :** Configuration des parois extérieures en mode adiabatique pour isoler et comprendre uniquement le comportement interne du boîtier.
    
    ![Visualisation](/assets/images/exterieur-boitier.jpg)
-   *Visualisation extérieure*
+   *Figure3: Visualisation extérieure*
    
    ![Visualisation](/assets/images/interieur-boitier.jpg)
-   *Visualisation intérieure*
+   *Figure4: Visualisation intérieure*
 
 4. ## Rapport et code source
  - [Télécharger le rapport TD3 (PDF)](/assets/images/Rapport%20boitier%20electronique.pdf)
