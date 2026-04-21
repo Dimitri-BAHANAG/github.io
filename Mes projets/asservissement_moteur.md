@@ -47,7 +47,7 @@ Le système est modélisé par une fonction de transfert du second ordre intégr
 * Utilisation de **MATLAB** pour le tracé des diagrammes de **Bode** et l'analyse des marges de gain et de phase.
 * * ![*Analyse correcteur1*](/assets/images/a-bode-correcteur.png)
 * *Figure 6: Bode avec correcteur*
-* * ![*Analyse correcteur2*](/assets/images/comparaison-sortie-correcteur.png)
+* * ![*Analyse correcteur2*](/assets/images/a-comparaison-sortie-correcteur.png)
 * *Figure 7: Comparaison entre correcteur et gain ad=4*
 * Modélisation sous **Simulink** pour valider le comportement dynamique en boucle fermée.
 
