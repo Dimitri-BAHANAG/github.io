@@ -19,6 +19,7 @@ Une attention particulière a été portée à la fidélité des conditions aux 
 * **Vitesse d'entrée forcée :** Flux d'air de **0,500 m/s** injecté par les ports d'entrée, simulant un refroidissement actif efficace.
 * **Charge Calorifique :** Dissipation thermique volumique de **5,000 W** appliquée aux sources de chaleur (puces/CPU), modélisant une charge processeur intensive.
 * **Conditions Ambiantes :** Simulation réalisée à **20,05 °C** et **101 325 Pa** (Pression atmosphérique standard).
+  
 ![Paramètres1](/assets/images/parametres-simulation-1.jpg)
   *Figure1: Conditions ambiantes*
 
@@ -36,6 +37,7 @@ L'étude intègre des propriétés physiques avancées pour une modélisation r�
     * Prise en compte des **effets gravitationnels** ($g = -9,81 m/s^2$) pour la convection naturelle.
     * Gestion de la **viscosité dynamique** de l'air en fonction de la température.
     * Régime de transfert thermique conjugué (Conduction dans les solides + Convection dans les fluides).
+      
 ![Paramètres2](/assets/images/parametres-simulation-2.jpg)
 *Figure2: Paramètres d'écoulement*
 
