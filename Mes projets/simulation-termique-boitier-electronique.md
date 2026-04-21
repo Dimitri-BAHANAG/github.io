@@ -48,9 +48,9 @@ Le modèle a été poussé jusqu'à **4 000 transferts** pour garantir une stabi
 1. **Optimisation des Flux :** Identification des zones de recirculation et des "angles morts" aérauliques.
 2. **Gradient Thermique :** Cartographie précise de la distribution de chaleur pour valider le placement des composants sensibles.
 3. **Barrière Adiabatique :** Configuration des parois extérieures en mode adiabatique pour isoler et comprendre uniquement le comportement interne du boîtier.
-   [Visualisation](./assets/images/exterieur-boitier.jpg)
+   ![Visualisation](/assets/images/exterieur-boitier.jpg)
    *Visualisation extérieure*
-   [Visualisation](./assets/images/interieur-boitier.jpg)
+   ![Visualisation](/assets/images/interieur-boitier.jpg)
    *Visualisation intérieure*
 
 > **Synthèse de l'Ingénieur :** Cette simulation démontre une maîtrise de l'outil **Flow Simulation** et une capacité à interpréter des données CFD complexes pour prendre des décisions de design robustes en ingénierie électronique.
