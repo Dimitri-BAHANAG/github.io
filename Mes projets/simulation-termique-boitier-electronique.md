@@ -19,6 +19,9 @@ Une attention particulière a été portée à la fidélité des conditions aux 
 * **Vitesse d'entrée forcée :** Flux d'air de **0,500 m/s** injecté par les ports d'entrée, simulant un refroidissement actif efficace.
 * **Charge Calorifique :** Dissipation thermique volumique de **5,000 W** appliquée aux sources de chaleur (puces/CPU), modélisant une charge processeur intensive.
 * **Conditions Ambiantes :** Simulation réalisée à **20,05 °C** et **101 325 Pa** (Pression atmosphérique standard).
+![Paramètres1](./assets/images/parametres-simulation-1.jpg)
+  *Conditions ambiantes*
+
 
 ---
 
@@ -33,6 +36,8 @@ L'étude intègre des propriétés physiques avancées pour une modélisation r�
     * Prise en compte des **effets gravitationnels** ($g = -9,81 m/s^2$) pour la convection naturelle.
     * Gestion de la **viscosité dynamique** de l'air en fonction de la température.
     * Régime de transfert thermique conjugué (Conduction dans les solides + Convection dans les fluides).
+![Paramètres2](./assets/images/parametres-simulation-2.jpg)
+*Paramètres d'écoulement*
 
 ---
 
@@ -43,6 +48,10 @@ Le modèle a été poussé jusqu'à **4 000 transferts** pour garantir une stabi
 1. **Optimisation des Flux :** Identification des zones de recirculation et des "angles morts" aérauliques.
 2. **Gradient Thermique :** Cartographie précise de la distribution de chaleur pour valider le placement des composants sensibles.
 3. **Barrière Adiabatique :** Configuration des parois extérieures en mode adiabatique pour isoler et comprendre uniquement le comportement interne du boîtier.
+   [Visualisation](./assets/images/exterieur-boitier.jpg)
+   *Visualisation extérieure*
+   [Visualisation](./assets/images/interieur-boitier.jpg)
+   *Visualisation intérieure*
 
 > **Synthèse de l'Ingénieur :** Cette simulation démontre une maîtrise de l'outil **Flow Simulation** et une capacité à interpréter des données CFD complexes pour prendre des décisions de design robustes en ingénierie électronique.
 
