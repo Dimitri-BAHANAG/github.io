@@ -14,7 +14,7 @@ Ce projet met en œuvre des concepts avancés de génie logiciel :
 * **Robustesse :** Gestion des erreurs réseau, des timeouts et des contraintes métier (capacité des quais, types de grues compatibles).
 
 ![Harbor Master](/assets/images/a-challenge-harbor-master.PNG)
-*Présentation du projet harbor master*
+**Figure1*: Présentation du projet harbor master*
 
 ## 🛠 Architecture du Système
 L'application repose sur une boucle de jeu (Game Loop) synchrone :
@@ -25,15 +25,18 @@ L'application repose sur une boucle de jeu (Game Loop) synchrone :
 5. **Évolution :** Passage au tick suivant via `/v1/tick`.
 
 ![Interface graphique](/assets/images/a-interface-harbor-master.PNG)
-*Interface graphique de l'application*
+**Figure2*: Interface graphique de l'application*
 
 ### Stratégies implémentées
 Pour répondre aux exigences de performance, le système supporte le changement de stratégie à la volée :
 * **Mode Urgentiste :** Priorité absolue aux conteneurs dont la `dueTick` est imminente pour éviter les pénalités.
 * **Mode Flux Tendu :** Maximisation du débit de chargement/déchargement pour libérer les quais rapidement.
 
-![Terminal utilisateur](/assets/images/a-terminal-harbor-master.PNG)
-*Terminal utilisateur*
+![Terminal utilisateur1](/assets/images/a-terminal-harbor-master.PNG)
+**Figure3*: Terminal utilisateur*
+
+![Terminal utilisateur2](/assets/images/a-terminal-strategie.PNG)
+**Figure3*: Terminal utilisateur:CHOIX DE LA STRATEGIE*
 
 ## 📋 Règles Métier & Contraintes
 Le moteur de décision doit jongler avec plusieurs contraintes critiques :
