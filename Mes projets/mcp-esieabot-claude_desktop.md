@@ -18,6 +18,7 @@ Voici les deux architectures proposées :
 *Figure1: architecture A*
 ![Architecture B](/assets/images/architectureB.png)
 *Figure2: architecture B*
+
 J'ai opté pour l'Architecture B : le serveur MCP tourne sur mon PC (localhost:8000)
 et se connecte au Raspberry Pi via le réseau (port 8888 pour pigpiod).
 Ce choix évite les problèmes de pare-feu scolaire et facilite le débogage.
