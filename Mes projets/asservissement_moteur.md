@@ -37,7 +37,7 @@ Le système est modélisé par une fonction de transfert du second ordre intégr
 * ![*Analyse gain2*](/assets/images/a-ad-4.png)
 * *Figure 4: Réponse pour ad=4*
 * ![*Analyse gain3*](/assets/images/a-valeurs-ad.png)
-* *Figure 5: Influence du gain sur la réponse*
+* *Figure 5: Influence du gain sur les paramètres de la réponse*
 
 ### 3. Correction par Avance de Phase
 * Conception d'un correcteur de type $C(p) = K_c \frac{1 + \alpha Tp}{1 + Tp}$ avec $\alpha > 1$.
