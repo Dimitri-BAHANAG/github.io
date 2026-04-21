@@ -16,9 +16,11 @@ et industriels réalisés entre 2022 et 2026.
 ## Mes domaines de compétence
  - **Systèmes embarqués** : STM32, ARM Cortex-M0+, KiCad, C firmware, UART
  - **DSP & Traitement du signal** : TMS320C6xxx, Scilab, filtres RII/RIF, FFT
+ - **Java,SQL** : programmation orientée objet, gestion de bases de données(Oracle SQL Developper)
  - **Python** : serveur MCP asynchrone, FastAPI, Pydantic, Raspberry Pi
  - **Simulation** : MATLAB/Simulink, Scilab/Xcos, SolidWorks Flow Simulation
- - **Maintenance industrielle** : AMDEC, Weibull, Pareto (CIMENCAM, Nestlé)--
+ - **Maintenance industrielle** : AMDEC, Weibull, Pareto (CIMENCAM, Nestlé)
+ ---
 ## Contact rapide
 - Email : bahanagphilippe@gmail.com
 - LinkedIn : https://www.linkedin.com/in/dimitri-bahanag
