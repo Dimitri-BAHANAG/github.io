@@ -12,17 +12,28 @@ L'enjeu : Passer d'une maintenance préventive rigide à une approche proactive,
 L'intelligence du modèle repose sur une compréhension fine de la physique du système. Voici l'analyse des résultats obtenus :
 
 ### 📉 1. Comportement Temporel des Capteurs
-![Evolution des Capteurs](211887.jpg)
+
+![Evolution des Capteurs](/assets/images/a-ML-7.png)
+*Figure1: Dégradation des capteurs*
 * Analyse : On observe que certains capteurs (comme les capteurs 2, 4, 7, 11, 12, 15) présentent une tendance très marquée (ascendante ou descendante) à mesure que le temps passe. 
 * Interprétation : Le point de rupture se situe souvent après le cycle 120. Avant cela, le signal est stable ; après, la dégradation s'accélère. C'est cet indicateur que le modèle doit capter pour prédire l'imminence d'une panne.
 
 ### 🌡️ 2. Distribution et Variabilité
-![Histogrammes](211889.jpg)
+
+![Histogramme1](/assets/images/a-ML-4.png)
+*Figure2: Modèle random-forest *
+
+![Histogramme2](/assets/images/a-ML-5.png)
+*Figure3: Modèle XGBoost*
+
 * Analyse : Les histogrammes révèlent que certains capteurs ont une distribution bimodale ou très étalée, tandis que d'autres sont "plats" (capteurs statiques).
 * Décision Technique : J'ai procédé à une réduction de dimensionnalité en supprimant les capteurs constants qui n'apportent aucun signal de dégradation, optimisant ainsi le temps de calcul.
 
 ### 🗺️ 3. Corrélation des Features
-![Matrice de Corrélation](211888.jpg)
+
+![Matrice de Corrélation](/assets/images/a-ML-5.png)
+*Figure4: Comparaison des modèles de prédiction*
+
 * Analyse : La matrice montre des corrélations proches de 1 (ou -1) entre certains capteurs et le temps (cycle). 
 * Interprétation : Cela confirme que l'usure mécanique est directement corrélée à des variables physiques spécifiques (ex: augmentation de la température de sortie de turbine). Ces variables ont été priorisées lors du *Feature Engineering*.
 
@@ -44,9 +55,12 @@ J'ai mis en compétition trois architectures pour identifier le meilleur comprom
 | LSTM (RNN) | ~16 cycles | Très performant pour la mémoire séquentielle des séries temporelles. |
 
 ### 3. Logique de Sécurité (Score NASA)
-![Prédiction vs Réel](e8f07fac-6ca5-4ab8-9ed6-7cdcadb32932)
+
 * Analyse du Graphique : Le modèle suit fidèlement la courbe de dégradation réelle.
 * Sécurité : J'ai intégré un score asymétrique qui pénalise plus lourdement les prédictions tardives. En aéronautique, prédire qu'un moteur tiendra 20 cycles alors qu'il n'en reste que 10 est inacceptable. Mon modèle favorise des alertes légèrement anticipées pour garantir la sécurité.
+
+  ![Histogrammes](/assets/images/a-ML-6.png)
+  *Figure5: Tableau de bord*
 
 ---
 
@@ -54,6 +68,12 @@ J'ai mis en compétition trois architectures pour identifier le meilleur comprom
 Pour rendre ce projet actionnable, j'ai développé une interface interactive avec Plotly Dash :
 * Suivi en temps réel : Visualisation de la santé de chaque moteur de la flotte.
 * Alertes Automatiques : Indicateurs visuels (NORMAL / ATTENTION / CRITIQUE) basés sur les seuils de RUL prédits.
+
+  *Figure6: Degré d'importance de chaque capteur*
+
+  ![Histogrammes](/assets/images/a-ML-1.png)
+  ![Histogrammes](/assets/images/a-ML-2.png)
+  ![Histogrammes](/assets/images/a-ML-3.png)
 
 ---
 
